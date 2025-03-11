@@ -1,8 +1,10 @@
 
 *{
-    margin: 0;
+    box-sizing: border-box;
+    margin: 0px;
     padding: 0;
     font-family: sans-serif;
+    /* border: 2px solid blue; */
 }.main{
     background-image: url("netflix-assets/images/background.jpg");
     height: 99vh;
@@ -10,7 +12,7 @@
   position:relative;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: max(1200px,100vw);
+  background-size: max(1200px, 100vw);
     
 }
 .main .box{
@@ -24,7 +26,7 @@
 }
 nav{
     /* border: 2px solid red; */
-    max-width: 83vw;
+    max-width: 80vw;
     margin: auto;
     color: white;
     display: flex;
@@ -49,16 +51,26 @@ nav img {
     z-index: 2;
     background-color: black;
     color: white;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 24px;
+    height: 33px;
 }
 nav button{
+    font-weight: bold;
     position: relative;
     z-index: 2;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
     background-color: red;
     color: white;
 }
 .hero{
+    /* display: none; */
     position: relative;
     height: 100%;
+    border: 2px solid blue;
     width: auto;
     display: flex;
     flex-direction: column;
