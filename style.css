@@ -1,1 +1,105 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}.main{
+    background-image: url("netflix-assets/images/background.jpg");
+    height: 99vh;
+    width: 100vw;
+  position:relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px,100vw);
+    
+}
+.main .box{
+    height: 99vh;
+    width: 100vw;
+    opacity: 0.7;
+    object-fit:fill;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    /* border: 2px solid red; */
+    max-width: 83vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.logo{
+    
+    width: 164px;
+    height: auto;
+  
+
+    /* border: 2px solid red; */
+}
+nav img {
+    position: relative;
+    z-index: 2;
+    top: -35px;
+}
+#lan{
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    color: white;
+}
+nav button{
+    position: relative;
+    z-index: 2;
+    background-color: red;
+    color: white;
+}
+.hero{
+    position: relative;
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    color: white;
+}
+.heading{
+    font-size: 48px;
+   
+    font-weight: bolder;
+}
+.subscription{
+    font-size: 20px;
+}
+.membership{
+    margin: 20px;
+}
+.login input{
+height: 56px;
+width: 450px;
+background: none;
+opacity: 0.4;
+background-color: black;
+color: white;
+border: 1px solid white;
+border-radius: 5px;
+
+}
+.login button{
+    height: 60px;
+    width: 200px;
+    font-size: 26px;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    
+}
+::placeholder{
+    color: white;
+}
