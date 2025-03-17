@@ -96,9 +96,10 @@ nav button{
     margin: 20px;
 }
 .login input{
-    display: none;
+    /* display: none; */
 height: 56px;
-width: 450px;
+max-width: 450px;
+min-width: 250px;
 background: none;
 opacity: 0.4;
 background-color: black;
@@ -108,9 +109,10 @@ border-radius: 5px;
 
 }
 .login button{
-    display: none;
+    /* display: none; */
     height: 60px;
-    width: 200px;
+    max-width: 200px;
+    min-width: 100px;
     font-size: 26px;
     font-weight: bolder;
     color: white;
